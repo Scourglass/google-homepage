@@ -1,0 +1,111 @@
+*{
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.wrapper > *{
+    flex-flow: row wrap;
+}
+.nav-left{
+    background: tomato;
+    flex: 1 25%;
+    
+}
+
+.nav-left li{
+    float: left;
+    padding: 10px;
+    
+    
+}
+
+.nav-right{
+    
+    background: rgb(24, 186, 207);
+    flex: 1 25%;
+    
+}
+
+.nav-right li{
+    float: right;
+    padding: 10px;
+    
+}
+
+
+
+.imgbox{
+    background: gray;
+    display: flex;
+    flex: 1 100%;
+    align-items: center;
+    
+}
+
+.imgwrap{
+    width: 25%; 
+    margin: auto;
+    margin-top: 100px;
+}
+
+.imgwrap img{
+    margin: auto;
+}
+
+.searchbox{
+    display: flex;
+    flex: 1 100%;
+    align-items: center;
+    background: green;
+    
+}
+
+.searchwrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 10px auto;
+}
+
+form.searchwrap input[type=text] {
+    margin: auto;
+    width: 500px;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    border: none;
+  }
+
+.buttonbox{
+    display: flex;
+    flex: 1 100%;
+    align-items: center;
+    background: purple;
+    
+}
+
+.buttonwrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.buttonpair{
+    margin: 11px 4px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    height: 36px;
+    color: #5F6368;
+    
+}
