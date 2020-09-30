@@ -12,30 +12,26 @@
 .wrapper > *{
     flex-flow: row wrap;
 }
+
 .nav-left{
     background: tomato;
     flex: 1 25%;
-    
 }
 
 .nav-left li{
     float: left;
     padding: 10px;
-    
-    
 }
 
 .nav-right{
     
     background: rgb(24, 186, 207);
     flex: 1 25%;
-    
 }
 
 .nav-right li{
     float: right;
     padding: 10px;
-    
 }
 
 
@@ -45,7 +41,6 @@
     display: flex;
     flex: 1 100%;
     align-items: center;
-    
 }
 
 .imgwrap{ 
@@ -62,7 +57,6 @@
     flex: 1 100%;
     align-items: center;
     background: green;
-    
 }
 
 .searchwrap{
@@ -89,7 +83,6 @@ form.searchwrap input[type=text] {
     flex: 1 100%;
     align-items: center;
     background: purple;
-    
 }
 
 .buttonwrap{
@@ -106,5 +99,4 @@ form.searchwrap input[type=text] {
     border-radius: 4px;
     height: 36px;
     color: #5F6368;
-    
 }
